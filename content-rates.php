@@ -14,29 +14,29 @@
         <th colspan="2">Weekend</th>
       </tr>
       <tr>
-        <td>9 holes walking</td>
+        <td>9 Holes Walking</td>
         <td>$13.00</td>
-        <td>9 holes walking</td>
+        <td>9 Holes Walking</td>
         <td>$14.50</td>
       </tr>
       <tr>
-        <td>9 holes w/ cart</td>
+        <td>9 Holes with Cart</td>
         <td>$18.50</td>
-        <td>9 holes w/ cart</td>
+        <td>9 Holes with Cart</td>
         <td>$21.00</td>
       </tr>
 
 
       <tr>
-        <td>18 holes walking</td>
+        <td>18 Holes Walking</td>
         <td>$19.00</td>
-        <td>18 holes walking</td>
+        <td>18 Holes Walking</td>
         <td>$21.00</td>
       </tr>
       <tr>
-        <td>18 holes w/ cart</td>
+        <td>18 Holes with Cart</td>
         <td>$30.00</td>
-        <td>18 holes w/ cart</td>
+        <td>18 Holes with Cart</td>
         <td>$32.00</td>
       </tr>
 
