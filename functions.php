@@ -165,3 +165,11 @@ add_filter('excerpt_more', 'new_excerpt_more');
 /*** var_dump_ array/string all cute and pretty  ***/
 function _pre($array) { echo '<pre>'; print_r ($array); echo '</pre>'; }
 /*** END ***/
+
+
+add_action( 'after_setup_theme', 'birch_lightup' );
+function birch_lightup() {
+	add_theme_support( 'wc-product-gallery-zoom' );
+	add_theme_support( 'wc-product-gallery-lightbox' );
+	add_theme_support( 'wc-product-gallery-slider' );
+}

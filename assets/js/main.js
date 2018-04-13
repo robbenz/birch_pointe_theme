@@ -24,4 +24,22 @@ $(function() {
 		}); // end window scroll
 	});
 
+function navScroll(menuItem, whereTo) {
+	$(menuItem).click(function() {
+		$('html, body').animate({
+			scrollTop: $(whereTo).offset().top -80
+		}, 2000);
+	});
+}
+
+navScroll(".navbar-brand","#page");
+navScroll(".footer-home","#page");
+navScroll(".menu-item-20","#birch_pointe_rates");
+navScroll(".menu-item-21","#photo-gallery");
+navScroll(".menu-item-22","#score_card");
+navScroll(".menu-item-23","#birch_pointe_about_us");
+navScroll(".menu-item-24","#birch_pointe_location");
+
+
+
 });

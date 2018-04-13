@@ -1,7 +1,3 @@
-<?php 
-$optin_text         = get_post_meta(206, 'optin_text', true);
-$optin_button_text  = get_post_meta(206, 'optin_button_text', true);
-?>
 <!-- OPT IN SECTION
 ================================================== -->
 <section id="optin">
@@ -9,13 +5,13 @@ $optin_button_text  = get_post_meta(206, 'optin_button_text', true);
   <div class="row">
 
     <div class="col-sm-8">
-      <p class="lead"><?php echo $optin_text ; ?></p>
+      <p class="lead">Birch Pointe Golf Club   |   St. Helen Michigan   |   (989) 389-7009 </p>
     </div><!-- end col -->
 
     <div class="col-sm-4">
-      <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-        <?php echo $optin_button_text ; ?>
-      </button>
+      <a href="https://www.facebook.com/birchpointegolfclub/" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+        Like us on facebook
+      </a>
     </div><!-- end col -->
 
   </div><!-- row -->

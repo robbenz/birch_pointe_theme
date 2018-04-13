@@ -566,7 +566,7 @@ body {
 	margin-top: 50px;
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
 	font-size: 16px;
-	background: url('/plugs/wp-content/themes/b2w_theme/assets/img/tile.jpg') top left repeat;
+	background: url('/birch_pointe/wp-content/themes/birch_pointe/assets/img/tile.jpg') top left repeat;
 }
 
 .admin-bar .navbar-fixed-top {top:32px;}
@@ -797,15 +797,22 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-	background: url('/plugs/wp-content/themes/b2w_theme/assets/img/background-main.png') 50% 0 repeat fixed;
+	background: url('/birch_pointe/wp-content/themes/birch_pointe/assets/img/background-main-clubhouse4.jpeg ') 50% 0 repeat fixed;
 	min-height: 500px;
 	position: relative;
 	display: table;
 	width: 100%;
-	padding: 40px 0;
+	padding: 20px 0 360px 0;
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+}
+
+#logo_img_wrap{ max-width: 230px;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 50%;
+		float:right;
 }
 
 #hero article {
@@ -874,10 +881,10 @@ form textarea {
 }
 
 section {
-	padding: 80px 0;
+	padding: 50px 0;
 }
 
-.section-header {
+.section-header, #birch_pointe_about_us {
 	text-align: center;
 }
 
@@ -933,25 +940,33 @@ section.main-content {
 	margin: 7px 0 0 0;
 }
 
-#course-features {
+#photo-gallery {
 	background: #3e4249;
 	color: white;
 	text-align: center;
 }
 
-#who-benefits {
+#score_card {
 	background: white;
 }
 
-#project-features {
+#menu-primary a, .navbar-header a.navbar-brand {
+	color:#ccc;
+	cursor: pointer;
+}
+#menu-primary a:hover, .navbar-header a.navbar-brand:hover {
+	color:#fff;
+}
+#birch_pointe_rates {
 	text-align: center;
 }
 
-#featurette {
-	background: url('/plugs/wp-content/themes/b2w_theme/assets/img/stuff-bg.jpg') 50% 100% repeat fixed;
+#birch_pointe_location {
+	background: url('/birch_pointe/wp-content/themes/birch_pointe/assets/img/background-main-clubhouse.png') 50% 100% repeat fixed; */
 	background-size: cover;
 	text-align: center;
 	color: white;
+	padding-bottom:200px;
 }
 
 #instructor {
@@ -1222,6 +1237,25 @@ footer li.signup-link a:hover {
 	left: 1px;
 }
 
+#price_chart {width:100%; font-size: 1.1em; }
+#price_chart td {text-align: left;}
+#price_chart th {font-size:1.25em; margin-bottom:0.25em;}
+#logo_footer_wrap{
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-top: -20px;
+	width: 150px;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 11px;
+	text-align: center;
+	margin-top: -80px;
+}
+
+
+ul.list-unstyled a { cursor: pointer; font-size: 13px; color:#ccc;}
+ul.list-unstyled a:hover { color:#fff; }
+
 /* ==== MEDIA QUERIES ==== */
 
 @media screen and (max-width : 991px) {
@@ -1244,7 +1278,7 @@ footer li.signup-link a:hover {
 		margin: 0 0 10px;
 	}
 
-	#featurette iframe {
+	#birch_pointe_location iframe {
 		height: 240px;
 	}
 

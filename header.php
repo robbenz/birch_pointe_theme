@@ -57,8 +57,8 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="/">
-						<p style="color:#fff; font-family:times-new-roman; line-height:10px; letter-spacing: 3px;">BIRCH POINTE GOLF CLUB</p>
+						<a class="navbar-brand">
+						<p style="color:#fff; letter-spacing: 1px;">BIRCH POINTE GOLF CLUB</p>
 					</a>
 					</div>
 

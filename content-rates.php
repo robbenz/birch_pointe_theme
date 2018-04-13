@@ -1,14 +1,14 @@
 <!-- Green Fees
 ================================================== -->
-<section id="project-features">
+<section id="birch_pointe_rates">
 <div class="container">
 
   <h2>Greens Fees &amp; Membership Pricing </h2>
   <p class="lead">Birch Point Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
 
   <div class="row">
-
-    <table id="price_chart ">
+    <div class="col-sm-8 col-sm-offset-2">
+    <table id="price_chart">
       <tr>
         <th colspan="2">Weekday</th>
         <th colspan="2">Weekend</th>
@@ -42,6 +42,7 @@
 
     </table>
 
+  </div><!-- col -->
   </div><!-- row -->
 
 </div><!-- container -->

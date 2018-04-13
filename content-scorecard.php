@@ -1,6 +1,6 @@
 <!-- Score card
 ================================================== -->
-<section id="who-benefits">
+<section id="score_card">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
