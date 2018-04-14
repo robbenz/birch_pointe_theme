@@ -26,41 +26,30 @@
 
   <div class="row">
 
-    <?php
-    // $loop = new WP_Query(
-    //   array(
-    //     'post_type' => 'course_feature',
-    //     'orderby'   => 'post_id',
-    //     'order'     => 'ASC'
-    //   )
-    // );
-    // while( $loop->have_posts() ) : $loop->the_post();
-    ?>
-
     <div class="col-sm-2">
-      <i class=""></i>
+      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-drivingrange.png" /></i>
       <h4>Driving Range</h4>
-    </div><!-- end col -->
+    </div>
     <div class="col-sm-2">
-      <i class=""></i>
+      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-martini.png" /></i>
       <h4>Full Service Bar</h4>
-    </div><!-- end col -->
+    </div>
     <div class="col-sm-2">
-      <i class=""></i>
+      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-patio.png" /></i>
       <h4>Outdoor Patio</h4>
-    </div><!-- end col -->
+    </div>
     <div class="col-sm-2">
-      <i class=""></i>
+      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-golfball.png" /></i>
       <h4>Pro Shop</h4>
-    </div><!-- end col -->
+    </div>
     <div class="col-sm-2">
-      <i class=""></i>
-      <h4>Senoir Day </h4>
-    </div><!-- end col -->
+      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-cart.png" /></i>
+      <h4>Riding Carts</h4>
+    </div>
     <div class="col-sm-2">
-      <i class=""></i>
-      <h4>Mens, womens &amp;mixed leagues </h4>
-    </div><!-- end col -->
+      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-putting-green.png" /></i>
+      <h4>Putting Green</h4>
+    </div>
 
     <?php //endwhile; wp_reset_query(); ?>
 

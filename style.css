@@ -1170,6 +1170,7 @@ footer li.signup-link a:hover {
 	margin-top: -80px;
 }
 
+i.course-icon img {width:50%;}
 
 ul.list-unstyled a { cursor: pointer; font-size: 13px; color:#ccc;}
 ul.list-unstyled a:hover { color:#fff; }
