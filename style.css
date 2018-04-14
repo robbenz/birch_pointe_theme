@@ -797,7 +797,7 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/try-this.png') 50% 0 repeat fixed;
+	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/clubhouse-hole-3-approach.png') 50% 0 repeat fixed;
 	/*background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/try-this.png');*/
 	min-height: 500px;
 	position: relative;
@@ -882,7 +882,7 @@ form textarea {
 }
 
 section {
-	padding: 50px 0;
+	padding: 40px 0;
 }
 
 .section-header, #birch_pointe_about_us {
@@ -906,27 +906,6 @@ section.main-content {
 	padding-bottom: 40px;
 }
 
-.feature-image {
-	display: table;
-	width: 100%;
-}
-
-.feature-image-default {
-	background: url('/plugs/wp-content/themes/b2w_theme/assets/img/stuff-feature.jpg') no-repeat;
-	background-size: cover;
-}
-
-.feature-image-default-alt {
-	background: url('/plugs/wp-content/themes/b2w_theme/assets/img/hipster-stuff.jpg') no-repeat;
-	background-size: cover;
-}
-
-.feature-image h1 {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	color: white;
-}
 
 #optin {
 	background: #3e4249;
@@ -963,7 +942,7 @@ section.main-content {
 }
 
 #birch_pointe_location {
-	background: url('wp-content/themes/birch_pointe/assets/img/birch_pointe_maps.png') 50% 100% repeat fixed; */
+	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/birch_pointe_maps.png') 50% 100% repeat fixed; */
 	background-size: cover;
 	text-align: center;
 	color: white;
@@ -1178,7 +1157,7 @@ footer li.signup-link a:hover {
 
 .price_chart {width:100%; font-size: 1.1em; }
 .price_chart td {text-align: left;}
-.price_chart th {font-size:1.25em; margin-bottom:0.25em;}
+.price_chart th {font-size:1.25em; padding-top:15px;}
 #logo_footer_wrap{
 	margin: 0 auto;
 	margin-top: 0px;

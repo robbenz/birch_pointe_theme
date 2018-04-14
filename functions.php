@@ -167,9 +167,26 @@ function _pre($array) { echo '<pre>'; print_r ($array); echo '</pre>'; }
 /*** END ***/
 
 
-add_action( 'after_setup_theme', 'birch_lightup' );
-function birch_lightup() {
-	add_theme_support( 'wc-product-gallery-zoom' );
-	add_theme_support( 'wc-product-gallery-lightbox' );
-	add_theme_support( 'wc-product-gallery-slider' );
+// add_action( 'after_setup_theme', 'birch_lightup' );
+// function birch_lightup() {
+// 	add_theme_support( 'wc-product-gallery-zoom' );
+// 	add_theme_support( 'wc-product-gallery-lightbox' );
+// 	add_theme_support( 'wc-product-gallery-slider' );
+// }
+
+
+/* bst.css Load Last Version */
+add_action( 'wp_enqueue_scripts', 'birch_load_css_php', 999 );
+function birch_load_css_php() {
+	if ( ! wp_style_is( 'style', 'done' ) ) {
+		wp_deregister_style( 'style' );
+		wp_dequeue_style( 'style' );
+		$style_filepath = get_stylesheet_directory() . '/style.css';
+		if ( file_exists($style_filepath) ) {
+      wp_enqueue_style('style',
+      get_template_directory_uri() . '/style.css', false,
+      filemtime(get_stylesheet_directory() . '/style.css'));
+		}
+	}
 }
+/* END */
