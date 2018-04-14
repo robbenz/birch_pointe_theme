@@ -9,7 +9,7 @@
     </div><!-- end col -->
 
     <div class="col-sm-4">
-      <a href="https://www.facebook.com/birchpointegolfclub/" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+      <a href="https://www.facebook.com/birchpointegolfclub/" class="btn btn-success btn-lg btn-block">
         Like us on facebook
       </a>
     </div><!-- end col -->

@@ -941,7 +941,7 @@ section.main-content {
 	margin: 7px 0 0 0;
 }
 
-#photo-gallery {
+#photo-gallery, #course-features {
 	background: #3e4249;
 	color: white;
 	text-align: center;
@@ -970,41 +970,11 @@ section.main-content {
 	padding-bottom:200px;
 }
 
-#instructor {
-	background: white url('/plugs/wp-content/themes/b2w_theme/assets/img/brad-elvis.png') 90% -10px no-repeat;
-}
+.dark-wrap {padding: 20px; background-color: rgba(0, 0, 0, 0.7); font-size:1.1em;}
+.dark-wrap ul li {text-align:left;}
 
-#instructor h2 {
-	margin: 0 0 20px;
-}
 
-#instructor .num {
-	display: table;
-	font-size: 30px;
-	font-weight: bold;
-	color: white;
-	line-height: 24px;
-	height: 140px;
-	width: 140px;
-	text-align: center;
-	background: #dd5638;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-}
 
-#instructor .num .num-content {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-#instructor .num span {
-	display: block;
-	font-size: 20px;
-	font-weight: normal;
-}
 
 #kudos {
 	text-align: center;
@@ -1238,9 +1208,9 @@ footer li.signup-link a:hover {
 	left: 1px;
 }
 
-#price_chart {width:100%; font-size: 1.1em; }
-#price_chart td {text-align: left;}
-#price_chart th {font-size:1.25em; margin-bottom:0.25em;}
+.price_chart {width:100%; font-size: 1.1em; }
+.price_chart td {text-align: left;}
+.price_chart th {font-size:1.25em; margin-bottom:0.25em;}
 #logo_footer_wrap{
 	margin: 0 auto;
 	margin-top: 0px;

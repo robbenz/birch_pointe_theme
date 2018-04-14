@@ -11,7 +11,8 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14927.631085063987!2d-84.4775565696569!3d44.353748618517635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88204e718b8321c1%3A0x5aca175169ab2f70!2sBirch+Pointe+Golf+Club!5e0!3m2!1sen!2sus!4v1523622233522" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div><!-- end col -->
 
-    <div class="col-sm-5">
+    <div class="col-sm-5 dark-wrap">
+
       <p>Located at 7071 Artesia Beach Rd, St Helen, MI 48656, Birch Pointe Golf Club is just a few minutes off I-75.</p>
 
       <b>Directions from north bound I-75</b><br>

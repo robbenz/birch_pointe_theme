@@ -34,10 +34,10 @@ function navScroll(menuItem, whereTo) {
 
 navScroll(".navbar-brand","#page");
 navScroll(".footer-home","#page");
-navScroll(".menu-item-20","#birch_pointe_rates");
-navScroll(".menu-item-21","#photo-gallery");
-navScroll(".menu-item-22","#score_card");
-navScroll(".menu-item-23","#birch_pointe_about_us");
+navScroll(".menu-item-23","#birch_pointe_rates");
+navScroll(".menu-item-22","#photo-gallery");
+navScroll(".menu-item-21","#score_card");
+navScroll(".menu-item-20","#birch_pointe_about_us");
 navScroll(".menu-item-24","#birch_pointe_location");
 
 
