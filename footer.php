@@ -23,25 +23,27 @@
 			<nav>
 				<ul class="list-unstyled list-inline">
 					<li><a class="footer-home">Home</a></li>
-					<li><a class="menu-item-23">About Us</a></li>
-			    <li><a class="menu-item-22">Score Card</a></li>
-			    <li><a class="menu-item-21">Photos</a></li>
-			    <li><a class="menu-item-20">Rates</a></li>
-			    <li><a class="menu-item-24">Contact</a></li>
+					<li><a class="menu-item-20">About Us</a></li>
+					<li><a class="menu-item-21">Score Card</a></li>
+					<li><a class="menu-item-22">Photos</a></li>
+					<li><a class="menu-item-23">Rates</a></li>
+					<li><a class="menu-item-24">Contact</a></li>
 				</ul>
 			</nav>
-		</div><!-- end col -->
+		</div>
 
 		<div class="col-sm-4">
 			<div id="logo_footer_wrap">
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/birch_logo.png" alt="Birch Pointe Golf Club | St Helen | West Branch" class="logo">
-		</div><!-- end col -->
-		</div><!-- end col -->
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/birch_logo.png" alt="Birch Pointe Golf Club | St Helen | West Branch" class="logo">
+			</div>
+
+		</div>
 
 		<div class="col-sm-4">
 			<p class="pull-right">&copy; 2018 Birch Pointe Golf Club</p>
-		</div><!-- end col -->
-	</div><!-- container -->
+		</div>
+	</div>
+	<!-- container -->
 </footer>
 
 
