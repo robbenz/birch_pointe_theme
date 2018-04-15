@@ -5,7 +5,6 @@ Template Name: Home Page
 
 get_header();  ?>
 
-
 <?php get_template_part('content', 'clubhouse') ; ?>
 
 <?php get_template_part('content', 'optin') ; ?>
@@ -21,9 +20,5 @@ get_header();  ?>
 <?php get_template_part('content', 'rates') ; ?>
 
 <?php get_template_part('content', 'location') ; ?>
-
-<?php //get_template_part('content', 'instructor') ; ?>
-
-<?php // get_template_part('content', 'testimonial') ; ?>
 
 <?php get_footer(); ?>

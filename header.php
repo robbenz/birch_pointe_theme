@@ -49,43 +49,61 @@
 		<div class="navbar-wrapper">
 
 			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+
 				<div class="container">
-					<div class="navbar-header">
+					<div class="row">
+					<!-- <div class="navbar-header"> -->
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand">
-						<p style="color:#fff; letter-spacing: 1px;">BIRCH POINTE GOLF CLUB</p>
-					</a>
-					</div>
-
-					<?php
-					wp_nav_menu ( array (
-						'theme_location'   => 'primary',
-						'container'			   => 'nav',
-						'container_class'  => 'navbar-collapse collapse',
-						'menu_class'		   => 'nav navbar-nav navbar-right'
-						)
-					);
-					?>
 
 
-					<!-- <div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="/">Home</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="resources.html">Resources</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div> -->
+						<div class="navbar-collapse collapse">
+
+							<div class="col-sm-6">
+							<ul class="nav navbar-nav navbar-left">
+								<li><a class="menu-item menu-item-20">About Us</a></li>
+								<li><a class="menu-item menu-item-21">Score Card</a></li>
+								<li><a class="menu-item menu-item-25">Course Features</a></li>
+							</ul>
+						</div>
+
+
+						<div class="col-sm-6">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a class="menu-item menu-item-22">Photo Gallery</a></li>
+								<li><a class="menu-item menu-item-23">Greens Fees</a></li>
+								<li><a class="menu-item menu-item-24">Course Location</a></li>
+							</ul>
+						</div>
+						</div>
+
+
+
+					<!-- </div> -->
 
 				</div>
 			</div>
 
 		</div>
-	</header>
 
-	<!-- <div id="content" class="site-content"> -->
+
+
+		<div style="background-color:#464444;" class="container">
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-5">
+					<div id="logo_img_wrap">
+						<a id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/birch_logo.png" alt="Birch Pointe Golf Club | St Helen | West Branch" class="logo">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</header>

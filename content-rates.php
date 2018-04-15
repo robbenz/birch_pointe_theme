@@ -50,7 +50,7 @@
       </tr>
 
       <tr style="margin-top:10px;">
-        <th colspan="2">Senior Day</th>
+        <th colspan="2">Senior Day*</th>
         <th colspan="2">&nbsp;</th>
       </tr>
       <tr>
@@ -74,6 +74,7 @@
 
 
   </table>
+  <p style="text-align:left; margin-top:10px;">* Senoir day &mdash; Monday until 1:00pm &amp; Wednesday, Friday until 3:00pm</p>
 
   </div><!-- col -->
   </div><!-- row -->

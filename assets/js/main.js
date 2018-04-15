@@ -27,7 +27,7 @@ $(function() {
 function navScroll(menuItem, whereTo) {
 	$(menuItem).click(function() {
 		$('html, body').animate({
-			scrollTop: $(whereTo).offset().top -80
+			scrollTop: $(whereTo).offset().top -70
 		}, 2000);
 	});
 }
@@ -39,6 +39,7 @@ navScroll(".menu-item-22","#photo-gallery");
 navScroll(".menu-item-21","#score_card");
 navScroll(".menu-item-20","#birch_pointe_about_us");
 navScroll(".menu-item-24","#birch_pointe_location");
+navScroll(".menu-item-25","#course-features");
 
 
 
