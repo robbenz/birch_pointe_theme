@@ -797,8 +797,7 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-	background: url('/birch_pointe/wp-content/themes/birch_pointe/assets/img/try-me.png') 50% 0 repeat fixed;
-	/*background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/try-this.png');*/
+	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/try-me.png') 50% 0 repeat fixed;
 	min-height: 500px;
 	position: relative;
 	display: table;
