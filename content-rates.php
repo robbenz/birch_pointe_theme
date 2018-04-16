@@ -1,10 +1,17 @@
+<?php 
+$rates_section_title = get_field('rates_section_title');
+$rates_section_blurb = get_field('rates_section_blurb');
+
+?>
+
+
 <!-- Green Fees
 ================================================== -->
 <section id="birch_pointe_rates">
 <div class="container">
 
-  <h2>Greens Fees &amp; Membership Pricing </h2>
-  <p class="lead">We would love to see you at Bitch Pointe Golf Club in beautiful Saint Helen, only minutes off I-75 exit 222! We offer friendly professional service with amazing views from the clubhouse, patio, and the course. Bitch Poite has everything you need for a wonderful day on the golf course. Whether you are enjoying a round of golf, or practicing in our secluded driving range, or putting reen, you will enjoyr your time at Birch Pointe Golf Club. <br><br> Our specialty is golf outing so pease give us a call to set up your next outing with us.</p>
+  <h2><?php echo $rates_section_title; ?></h2>
+  <p class="lead"><?php echo $rates_section_blurb; ?></p>
 
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
@@ -80,4 +87,4 @@
   </div><!-- row -->
 
 </div><!-- container -->
-</section><!-- project-features -->
+</section><!-- birch_pointe_rates -->

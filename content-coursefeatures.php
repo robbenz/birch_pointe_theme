@@ -1,10 +1,3 @@
-
-<?php
-// $features_section_image = get_field('features_section_image');
-// $features_section_title = get_field('features_section_title');
-// $features_section_body  = get_field('features_section_body');
-?>
-
 <!-- COURSE FEATURES
 ================================================== -->
 <section id="course-features">
@@ -12,15 +5,7 @@
 
   <div class="section-header">
 
-  <!-- If user uploaded an image -->
-
-    <h2><?php// echo $features_section_title; ?></h2>
     <h2>Course Features</h2>
-
-    <!-- If user added body text -->
-    <?php if( !empty($features_section_body) ) : ?>
-    <p class="lead"><?php echo $features_section_body; ?></p>
-    <?php endif; ?>
 
   </div><!-- section-header -->
 
@@ -50,8 +35,6 @@
       <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-putting-green.png" /></i>
       <h4>Putting Green</h4>
     </div>
-
-    <?php //endwhile; wp_reset_query(); ?>
 
     </div><!-- row -->
   </div><!-- container -->
