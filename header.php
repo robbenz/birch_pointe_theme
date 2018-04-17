@@ -95,7 +95,7 @@
 
 		<div style="background-color:#464444;" class="container">
 			<div class="row">
-				<div class="col-sm-2 col-sm-offset-5">
+				<div class="col-sm-4 col-sm-offset-4">
 					<div id="logo_img_wrap">
 						<a id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
 							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/birch_logo.png" alt="Birch Pointe Golf Club | St Helen | West Branch" class="logo">

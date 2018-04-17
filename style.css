@@ -819,6 +819,9 @@ form textarea {
 	position:absolute;
 	z-index:9999;
 	top:-45px;
+	margin:0 auto;
+	left:0;
+	right:0;
 }
 
 #hero article {
@@ -953,7 +956,7 @@ section.main-content {
 	color: white;
 	padding-bottom:140px;
 }
-
+#dk_clubhouse {padding-bottom:30px; background-color: rgba(0, 0, 0, 0.4); margin-top:150px; text-align:center}
 .dark-wrap {padding: 20px; background-color: rgba(0, 0, 0, 0.7);}
 .dark-wrap ul li {text-align:left;}
 
