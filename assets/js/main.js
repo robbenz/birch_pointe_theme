@@ -41,6 +41,8 @@ navScroll(".menu-item-20","#birch_pointe_about_us");
 navScroll(".menu-item-24","#birch_pointe_location");
 navScroll(".menu-item-25","#course-features");
 
-
+$(window).scroll(function(){
+    $("#theFixed").css("top",Math.max(0,400-$(this).scrollTop()));
+});
 
 });
