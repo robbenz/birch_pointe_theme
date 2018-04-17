@@ -797,9 +797,10 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/try-me.png') 50% 0 repeat fixed;
-	min-height: 500px;
-	height: 500px;
+	background-color:#3e4249;
+	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 repeat fixed;
+	min-height: 543px;
+	height: 543px;
 	position: relative;
 	display: table;
 	width: 100%;

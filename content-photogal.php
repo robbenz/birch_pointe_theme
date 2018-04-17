@@ -6,7 +6,8 @@
       <h2>Photo Gallery</h2>
     </div>
     <div class="row">
-      <?php echo do_shortcode('[print_responsive_slider_plus_lightbox]'); ?>
+    	<?php photo_gallery(1); ?>
+      <?php// echo do_shortcode('[print_responsive_slider_plus_lightbox]'); ?>
     </div>
   </div>
 </section>
