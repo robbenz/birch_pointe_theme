@@ -1,5 +1,5 @@
 /*!
-Theme Name: Bootstrap Class
+Theme Name: Birch Pointe Golf Club
 Theme URI: http://underscores.me/
 Author: Rob Benz
 Author URI: http://robbenz.com
@@ -1186,6 +1186,8 @@ ul.list-unstyled a:hover { color:#fff; }
 		background: rgba(255,255,255,0.8);
 		padding: 20px;
 	}
+.nav > li > a { padding:10px 5px; font-size:12px;}
+
 }
 
 @media screen and (max-width: 782px) {
@@ -1194,7 +1196,7 @@ ul.list-unstyled a:hover { color:#fff; }
 
 @media screen and (max-width : 768px) {
 	.logo {
-		width: 50%;
+		width: 100%;
 	}
 
 	#optin p {
@@ -1205,10 +1207,17 @@ ul.list-unstyled a:hover { color:#fff; }
 		height: 240px;
 	}
 
+	.navbar-fixed-top .navbar-collapse {padding-top: 50px;}
+
 	.resource {
 		width: 48%;
 		margin-right: 2%;
 	}
+
+	#logo_footer_wrap { margin-top: -10px;}
+
+	#logo_img_wrap {width:100px;}
+
 }
 
 @media screen and (max-width: 600) {

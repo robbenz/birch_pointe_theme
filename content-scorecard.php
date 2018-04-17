@@ -18,9 +18,11 @@ $scorecard_image    = get_field('scorecard_image');
         <p><?php echo $text_on_left_side; ?>
       </p></div>
       <div class="col-md-8">
-        <a href="<?php echo $scorecard_image['url']; ?>" data-toggle="lightbox">
-        <img class="img-fluid" src="<?php echo $scorecard_image['url']; ?>" />
-      </a>
+        <a href="<?php echo $scorecard_image['url']; ?>" rel="lightbox" title="<?php echo $scorecard_image['alt']; ?>">
+          <img src="<?php echo $scorecard_image['url']; ?>" />
+        </a>
+
+
       </div>
     </div>
   </div>

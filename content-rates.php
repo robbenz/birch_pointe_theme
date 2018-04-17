@@ -1,7 +1,22 @@
-<?php 
-$rates_section_title = get_field('rates_section_title');
-$rates_section_blurb = get_field('rates_section_blurb');
+<?php
+$rates_section_title    = get_field('rates_section_title');
+$rates_section_blurb    = get_field('rates_section_blurb');
 
+$nine_holes_walking_wkday  = get_field('9_holes_walking_wkday');
+$nine_holes_riding_wkday   = get_field('9_holes_riding_wkday');
+$eighteen_holes_walking_wkday = get_field('18_holes_walking_wkday');
+$eighteen_holes_riding_wkday  = get_field('18_holes_riding_wkday');
+$nine_holes_walking_wkend  = get_field('9_holes_walking_wkend');
+$nine_holes_riding_wkend   = get_field('9_holes_riding_wkend');
+$eighteen_holes_walking_wkend = get_field('18_holes_walking_wkend');
+$eighteen_holes_riding_wkend  = get_field('18_holes_riding_wkend');
+
+$member_cart_price = get_field('member_cart_price');
+
+$nine_holes_walking_sn = get_field('9_holes_walking_sn');
+$nine_holes_riding_sn  = get_field('9_holes_riding_sn');
+$eighteen_holes_riding_sn = get_field('18_holes_riding_sn');
+$senoir_pricing_blurb = get_field('senoir_pricing_blurb');
 ?>
 
 
@@ -11,6 +26,7 @@ $rates_section_blurb = get_field('rates_section_blurb');
 <div class="container">
 
   <h2><?php echo $rates_section_title; ?></h2>
+  <p class="lead"><em>Call   <a href="tel:1-989-389-7009">(989) 389-7009</a> to book your tee time today!</em></p>
   <p class="lead"><?php echo $rates_section_blurb; ?></p>
 
   <div class="row">
@@ -22,66 +38,66 @@ $rates_section_blurb = get_field('rates_section_blurb');
       </tr>
       <tr>
         <td>9 Holes Walking</td>
-        <td>$13.00</td>
+        <td>$<?php echo $nine_holes_walking_wkday; ?></td>
         <td>9 Holes Walking</td>
-        <td>$14.50</td>
+        <td>$<?php echo $nine_holes_walking_wkend; ?></td>
       </tr>
       <tr>
         <td>9 Holes with Cart</td>
-        <td>$18.50</td>
+        <td>$<?php echo $nine_holes_riding_wkday; ?></td>
         <td>9 Holes with Cart</td>
-        <td>$21.00</td>
+        <td>$<?php echo $nine_holes_riding_wkend; ?></td>
       </tr>
       <tr>
         <td>18 Holes Walking</td>
-        <td>$19.00</td>
+        <td>$<?php echo $eighteen_holes_walking_wkday; ?></td>
         <td>18 Holes Walking</td>
-        <td>$21.00</td>
+        <td>$<?php echo $eighteen_holes_walking_wkend; ?></td>
       </tr>
       <tr>
         <td>18 Holes with Cart</td>
-        <td>$30.00</td>
+        <td>$<?php echo $eighteen_holes_riding_wkday; ?></td>
         <td>18 Holes with Cart</td>
-        <td>$32.00</td>
+        <td>$<?php echo $eighteen_holes_riding_wkend; ?></td>
       </tr>
 
-      <tr style="margin-top:10px;">
+      <tr>
         <th colspan="2">Member Cart Fee</th>
         <th colspan="2">&nbsp;</th>
       </tr>
       <tr>
         <td>9 Holes</td>
-        <td>$6.00</td>
+        <td>$<?php echo $member_cart_price; ?></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
 
-      <tr style="margin-top:10px;">
+      <tr>
         <th colspan="2">Senior Day*</th>
         <th colspan="2">&nbsp;</th>
       </tr>
       <tr>
         <td>9 Holes Walking</td>
-        <td>$6.00</td>
+        <td>$<?php echo $nine_holes_walking_sn; ?></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
         <td>9 Holes with Cart</td>
-        <td>$13.00</td>
+        <td>$<?php echo $nine_holes_riding_sn; ?></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
         <td>18 Holes with Cart</td>
-        <td>$20.00</td>
+        <td>$<?php echo $eighteen_holes_riding_sn; ?></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
 
 
   </table>
-  <p style="text-align:left; margin-top:10px;">* Senoir day &mdash; Monday until 1:00pm &amp; Wednesday, Friday until 3:00pm</p>
+  <p style="text-align:left; margin-top:10px;">* <?php echo $senoir_pricing_blurb; ?></p>
 
   </div><!-- col -->
   </div><!-- row -->

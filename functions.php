@@ -166,15 +166,6 @@ add_filter('excerpt_more', 'new_excerpt_more');
 function _pre($array) { echo '<pre>'; print_r ($array); echo '</pre>'; }
 /*** END ***/
 
-
-// add_action( 'after_setup_theme', 'birch_lightup' );
-// function birch_lightup() {
-// 	add_theme_support( 'wc-product-gallery-zoom' );
-// 	add_theme_support( 'wc-product-gallery-lightbox' );
-// 	add_theme_support( 'wc-product-gallery-slider' );
-// }
-
-
 /* bst.css Load Last Version */
 add_action( 'wp_enqueue_scripts', 'birch_load_css_php', 999 );
 function birch_load_css_php() {

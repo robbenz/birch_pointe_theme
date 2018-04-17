@@ -67,8 +67,8 @@
 							<div class="col-sm-6">
 							<ul class="nav navbar-nav navbar-left">
 								<li><a class="menu-item menu-item-20">About Us</a></li>
-								<li><a class="menu-item menu-item-21">Score Card</a></li>
 								<li><a class="menu-item menu-item-25">Course Features</a></li>
+								<li><a class="menu-item menu-item-21">Score Card</a></li>
 							</ul>
 						</div>
 

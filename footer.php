@@ -24,10 +24,12 @@
 				<ul class="list-unstyled list-inline">
 					<li><a class="footer-home">Home</a></li>
 					<li><a class="menu-item-20">About Us</a></li>
+					<li><a class="menu-item-25">Course Features</a></li>
 					<li><a class="menu-item-21">Score Card</a></li>
-					<li><a class="menu-item-22">Photos</a></li>
-					<li><a class="menu-item-23">Rates</a></li>
+					<li><a class="menu-item-22">Photo Gallery</a></li>
+					<li><a class="menu-item-23">Greens Fees</a></li>
 					<!-- <li><a class="menu-item-24">Contact</a></li> -->
+
 				</ul>
 			</nav>
 		</div>
