@@ -10,11 +10,11 @@
         <div style="text-align:center" class="col-sm-2 col-sm-offset-5">
           <?php if (is_user_logged_in() &&  current_user_can('administrator') ) : ?>
 
-          <div id="loggedtheFixed" style="position:fixed;top:400px;z-index:9998;">
+          <div id="loggedtheFixed" style="width: 150px;position:fixed;top:400px;z-index:9998;">
             <p style="margin-top:42px;" class="lead">
           <?php else : ?>
 
-          <div id="theFixed" style="position:fixed;top:400px;z-index:9998;">
+          <div id="theFixed" style="width: 150px;position:fixed;top:400px;z-index:9998;">
             <p style="margin-top:10px;" class="lead">
           <?php endif; ?>
 
