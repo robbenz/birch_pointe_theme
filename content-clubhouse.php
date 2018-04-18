@@ -7,7 +7,7 @@
 
 
 
-        <div style="text-align:center" class="col-sm-2 col-sm-offset-5">
+        <div style="text-align:center" class="col-sm-12">
           <?php if (is_user_logged_in() &&  current_user_can('administrator') ) : ?>
 
           <div id="loggedtheFixed" style="position:fixed;top:400px;z-index:9999;">
@@ -19,7 +19,7 @@
           <?php endif; ?>
 
               <em><b>
-                <a style="color:#fff;" href="tel:1-989-389-7009">(989) 389-7009</a>
+                <a style="color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:19px;" href="tel:1-989-389-7009">(989) 389-7009</a>
               </b></em>
             </p>
           </div>
@@ -27,7 +27,7 @@
 
 
         <div id="dk_clubhouse" class="col-sm-6 col-sm-offset-3">
-          <p style="font-size:33px;"><b>Call To Book Your Next Tee Time!</b></p>
+          <p class="tee-time"><b>Call To Book Your Next Tee Time!</b></p>
         </div>
         <!-- col -->
       </div>

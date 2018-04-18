@@ -797,9 +797,10 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-	background-color:#3e4249;
-	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 repeat fixed;
+
+	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed;
 	min-height: 543px;
+	background-color:#3e4249;
 	height: 543px;
 	position: relative;
 	display: table;
@@ -834,54 +835,6 @@ form textarea {
 #hero .hero-text {
 	margin-top: 30px;
 }
-
-#price-timeline {
-	margin: 30px 0 60px;
-	text-align: center;
-}
-
-#price-timeline .price {
-	display: inline-block;
-	width: 30%;
-	margin: 0 2% 0 0;
-	background: #3e4249;
-	padding: 10px 20px 30px;
-	position: relative;
-	vertical-align: top;
-}
-
-#price-timeline .price.active {
-	background: #dd5638;
-}
-
-#price-timeline .price span {
-	background: #101010;
-	display: block;
-	height: 70px;
-	width: 70px;
-	text-align: center;
-	line-height: 70px;
-	font-weight: bold;
-	font-size: 24px;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	position: absolute;
-	bottom: -35px;
-	left: 50%;
-	margin-left: -35px;
-}
-
-#price-timeline h4 {
-	margin: 0 0 10px;
-}
-
-#price-timeline h4 small {
-	color: white;
-	font-weight: bold;
-	display: block;
-}
-
 
 /* ==== LAYOUT ==== */
 
@@ -928,71 +881,26 @@ section.main-content {
 	margin: 7px 0 0 0;
 }
 
-#photo-gallery, #course-features {
-	background: #3e4249;
-	color: white;
-	text-align: center;
-}
-
-#score_card {
-	background: white;
-}
-
-.nav a, .navbar-header a.navbar-brand {
-	color:#ccc;
-	cursor: pointer;
-}
-#menu-primary a:hover, .navbar-header a.navbar-brand:hover {
-	color:#fff;
-}
-#birch_pointe_rates {
-	text-align: center;
-}
-
+#photo-gallery, #course-features { background: #3e4249; color: white; text-align: center; }
+#score_card { background: white; }
+#birch_pointe_rates {text-align: center; }
 #birch_pointe_location {
 	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/birch_pointe_maps.png') 50% 100% repeat fixed; */
-	background-size: cover;
-	text-align: center;
-	color: white;
-	padding-bottom:140px;
+	background-size: cover;text-align: center;color: white;padding-bottom:140px;
 }
 #dk_clubhouse {padding-bottom:30px; background-color: rgba(0, 0, 0, 0.4); margin-top:150px; text-align:center}
 .dark-wrap {padding: 20px; background-color: rgba(0, 0, 0, 0.7);}
 .dark-wrap ul li {text-align:left;}
-
-
-
-
-footer {
-	background: #3e4249;
-	color: white;
-	padding: 20px 0 10px;
-	font-size: 12px;
-}
-
-footer p {
-	margin: 0;
-}
-
-footer a:link, footer a:visited {
-	color: white;
-}
-
-footer a:hover {
-	color: #dd5638;
-}
-
-footer li.signup-link a {
-	color: #dd5638;
-}
-
-footer li.signup-link a:hover {
-	font-weight: bold;
-}
+footer { background: #3e4249;color: white;padding: 20px 0 10px;font-size: 12px; }
+footer p { margin: 0; }
+footer a:link, footer a:visited { color: white; }
+footer a:hover { color: #dd5638; }
+footer li.signup-link a { color: #dd5638; }
+footer li.signup-link a:hover { font-weight: bold; }
 
 /* ==== BLOG ==== */
 
-.post, .widget, #comments {
+/*.post, .widget, #comments {
 	position: relative;
 	border: solid 1px #ddd;
 	background: white;
@@ -1037,10 +945,10 @@ footer li.signup-link a:hover {
 
 .post-details i.fa:first-child {
 	padding: 0;
-}
+}*/
 
 /* === COMMENTS === */
-
+/*
 .post-comments-badge {
 	height: 70px;
 	width: 70px;
@@ -1122,11 +1030,11 @@ footer li.signup-link a:hover {
 
 #comments .comment-metadata {
 	margin: 10px 0 0;
-}
+}*/
 
 /* === RESOURCES === */
 
-.resource {
+/*.resource {
 	width: 31.33333333%;
 	float: left;
 	margin: 0 3% 40px 0;
@@ -1134,10 +1042,10 @@ footer li.signup-link a:hover {
 
 .resource:nth-child(3n) {
 	margin-right: 0;
-}
+}*/
 
 /* === WIDGETS === */
-
+/*
 .widget {
 	padding: 20px;
 }
@@ -1161,37 +1069,30 @@ footer li.signup-link a:hover {
 .widget ul li:hover {
 	position: relative;
 	left: 1px;
-}
+}*/
 
 .price_chart {width:100%; font-size: 1.1em; }
 .price_chart td {text-align: left;}
 .price_chart th {font-size:1.25em; padding-top:15px;}
-#logo_footer_wrap{
-	margin: 0 auto;
-	margin-top: 0px;
-	margin-top: -20px;
-	width: 150px;
-	background-color: #fff;
-	border-radius: 50%;
-	padding: 11px;
-	text-align: center;
-	margin-top: -80px;
-}
-
+#logo_footer_wrap{margin: -80px auto 0px auto; width: 150px; background-color: #fff; border-radius: 50%; padding: 11px; }
 i.course-icon img {width:50%;}
-
 ul.list-unstyled a { cursor: pointer; font-size: 13px; color:#ccc;}
 ul.list-unstyled a:hover { color:#fff; }
+.tee-time {font-size:33px;}
+#loggedtheFixed,#theFixed {margin: 0 auto;left:0;right:0;}
 
 /* ==== MEDIA QUERIES ==== */
 
-@media screen and (max-width : 991px) {
-	#instructor .container {
-		background: rgba(255,255,255,0.8);
-		padding: 20px;
-	}
-.nav > li > a { padding:10px 5px; font-size:12px;}
+@media screen and (max-width : 1200px) {
+	#dk_clubhouse {margin-top: 180px;}
+	.tee-time {font-size: 27px;}
+}
 
+@media screen and (max-width : 991px) {
+	#instructor .container { background: rgba(255,255,255,0.8); padding: 20px; }
+	.tee-time {font-size: 23px;	}
+	.nav > li > a { padding:10px 5px; font-size:12px;}
+	#logo_img_wrap { max-width: 170px; }
 }
 
 @media screen and (max-width: 782px) {
@@ -1199,29 +1100,14 @@ ul.list-unstyled a:hover { color:#fff; }
 }
 
 @media screen and (max-width : 768px) {
-	.logo {
-		width: 100%;
-	}
-
-	#optin p {
-		margin: 0 0 10px;
-	}
-
-	#birch_pointe_location iframe {
-		height: 240px;
-	}
-
+	.logo { width: 100%; }
+	#optin p { margin: 0 0 10px; }
+	#birch_pointe_location iframe { height: 300px; }
+  #dk_clubhouse { margin-top: 150px; }
 	.navbar-fixed-top .navbar-collapse {padding-top: 50px;}
-
-	.resource {
-		width: 48%;
-		margin-right: 2%;
-	}
-
+	.resource {width: 48%;margin-right: 2%;}
 	#logo_footer_wrap { margin-top: -10px;}
-
 	#logo_img_wrap {width:100px;}
-
 }
 
 @media screen and (max-width: 600) {
@@ -1229,18 +1115,7 @@ ul.list-unstyled a:hover { color:#fff; }
 }
 
 @media screen and (max-width : 568px) {
-	#instructor .num {
-		height: 100px;
-		width: 100px;
-		font-size: 22px;
-	}
-
-	#instructor .num span {
-		font-size: 16px;
-	}
-
-	.resource {
-		width: 100%;
-		margin-right: 0;
-	}
+	#dk_clubhouse { margin-top: 150px; }
+	.tee-time{font-size: 20px;}
+	.resource { width: 100%; margin-right: 0; }
 }

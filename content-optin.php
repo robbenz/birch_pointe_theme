@@ -11,7 +11,7 @@ $button_link  = get_field('button_link');
     <div class="row">
 
       <div class="col-sm-8">
-        <p class="lead"><?php echo $intro_text; ?></p>
+        <p class="lead"><b><?php echo $intro_text; ?></b></p>
       </div><!-- end col -->
 
       <div class="col-sm-4">

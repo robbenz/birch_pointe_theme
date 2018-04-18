@@ -26,7 +26,7 @@ $senoir_pricing_blurb = get_field('senoir_pricing_blurb');
 <div class="container">
 
   <h2><?php echo $rates_section_title; ?></h2>
-  <p class="lead"><em>Call   <a href="tel:1-989-389-7009">(989) 389-7009</a> to book your tee time today!</em></p>
+  <p style="margin-top:-10px;"class="lead"><b><em>Call <a style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" href="tel:1-989-389-7009">(989) 389-7009</a> to book your tee time today!</em></b></p>
   <p class="lead"><?php echo $rates_section_blurb; ?></p>
 
   <div class="row">
