@@ -19,7 +19,7 @@
           <?php endif; ?>
 
               <em><b>
-                <a style="color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:19px;" href="tel:1-989-389-7009">(989) 389-7009</a>
+                <a class="call-tee-time" href="tel:1-989-389-7009">(989) 389-7009</a>
               </b></em>
             </p>
           </div>

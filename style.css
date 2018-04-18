@@ -1129,6 +1129,7 @@ ul.list-unstyled a{ cursor: pointer; font-size: 13px; color:#ccc;}
 ul.list-unstyled a:hover { color:#fff; }
 .tee-time {font-size:33px;}
 #loggedtheFixed,#theFixed {margin: 0 auto;left:0;right:0;}
+a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;}
 
 /* ==== MEDIA QUERIES ==== */
 
@@ -1166,5 +1167,7 @@ ul.list-unstyled a:hover { color:#fff; }
 @media screen and (max-width : 568px) {
 	#dk_clubhouse { margin-top: 150px; }
 	.tee-time{font-size: 20px;}
+	a.call-tee-time{font-size:19px;}
+
 	.resource { width: 100%; margin-right: 0; }
 }
