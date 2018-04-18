@@ -65,7 +65,7 @@
 						<div class="navbar-collapse collapse">
 
 							<div class="col-sm-6">
-							<ul class="nav navbar-nav navbar-left">
+							<ul style="z-index:9999;"  class="nav navbar-nav navbar-left">
 								<li><a class="menu-item menu-item-20">About Us</a></li>
 								<li><a class="menu-item menu-item-25">Course Features</a></li>
 								<li><a class="menu-item menu-item-21">Score Card</a></li>
@@ -74,7 +74,7 @@
 
 
 						<div class="col-sm-6">
-							<ul class="nav navbar-nav navbar-right">
+							<ul style="z-index:9999;" class="nav navbar-nav navbar-right">
 								<li><a class="menu-item menu-item-22">Photo Gallery</a></li>
 								<li><a class="menu-item menu-item-23">Greens Fees</a></li>
 								<li><a class="menu-item menu-item-24">Course Location</a></li>
