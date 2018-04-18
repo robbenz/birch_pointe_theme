@@ -261,6 +261,7 @@ th {
 	display: block;
 }
 
+
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
@@ -476,6 +477,14 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+}
+
+.nav a, .navbar-header a.navbar-brand {
+	color:#ccc;
+	cursor: pointer;
+}
+#menu-primary a:hover, .navbar-header a.navbar-brand:hover {
+	color:#fff;
 }
 
 /*--------------------------------------------------------------
