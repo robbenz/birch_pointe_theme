@@ -19,7 +19,7 @@ $scorecard_image    = get_field('scorecard_image');
       </p></div>
       <div class="col-md-8">
         <a href="<?php echo $scorecard_image['url']; ?>" class="lightbox" title="<?php echo $scorecard_image['alt']; ?>">
-          <img src="<?php echo $scorecard_image['url']; ?>" />
+          <img style="border:4px solid #3e4249;" src="<?php echo $scorecard_image['url']; ?>" />
         </a>
 
 
