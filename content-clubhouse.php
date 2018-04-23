@@ -15,7 +15,7 @@
           <?php else : ?>
 
           <div id="theFixed" style="width: 150px;position:fixed;top:400px;z-index:9998;">
-            <p style="margin-top:10px;" class="lead">
+            <p class="lead">
           <?php endif; ?>
 
               <em><b>

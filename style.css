@@ -1130,6 +1130,7 @@ ul.list-unstyled a:hover { color:#fff; }
 .tee-time {font-size:33px;}
 #loggedtheFixed,#theFixed {margin: 0 auto;left:0;right:0;}
 a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;}
+#theFixed p.lead{margin-top:10px;}
 
 /* ==== MEDIA QUERIES ==== */
 
@@ -1147,6 +1148,7 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 
 @media screen and (max-width: 782px) {
 	.admin-bar .navbar-fixed-top {top:46px;}
+		h4 {font-size: 15px;}
 }
 
 @media screen and (max-width : 768px) {
@@ -1157,7 +1159,9 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	.navbar-fixed-top .navbar-collapse {padding-top: 50px;}
 	.resource {width: 48%;margin-right: 2%;}
 	#logo_footer_wrap { margin-top: -10px;}
-	#logo_img_wrap {width:100px;}
+	#logo_img_wrap, #logo_footer_wrap {width:100px;}
+	#theFixed p.lead{margin-top:0px;}
+
 }
 
 @media screen and (max-width: 600) {
@@ -1168,6 +1172,8 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	#dk_clubhouse { margin-top: 150px; }
 	.tee-time{font-size: 20px;}
 	a.call-tee-time{font-size:19px;}
-
+	h4 {font-size: 14px;}
 	.resource { width: 100%; margin-right: 0; }
+	.price_chart td {font-size:11px; }
+	#hero { background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed; }
 }
