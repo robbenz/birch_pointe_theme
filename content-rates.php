@@ -28,7 +28,7 @@ $senoir_pricing_blurb         = get_field('senoir_pricing_blurb');
 
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        <table class="price_chart">
+        <table class="price_chart table">
           <tr>
             <th colspan="2">Weekday</th>
             <th colspan="2">Weekend</th>
@@ -57,16 +57,7 @@ $senoir_pricing_blurb         = get_field('senoir_pricing_blurb');
             <td>18 Holes with Cart</td>
             <td>$<?php echo $eighteen_holes_riding_wkend; ?></td>
           </tr>
-          <tr>
-            <th colspan="2">Member Cart Fee</th>
-            <th colspan="2">&nbsp;</th>
-          </tr>
-          <tr>
-            <td>9 Holes</td>
-            <td>$<?php echo $member_cart_price; ?></td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
+
           <tr>
             <th colspan="2">Senior Day*</th>
             <th colspan="2">&nbsp;</th>
@@ -91,6 +82,65 @@ $senoir_pricing_blurb         = get_field('senoir_pricing_blurb');
           </tr>
         </table>
         <p style="text-align:left; margin-top:10px;">*<?php echo $senoir_pricing_blurb; ?></p>
+
+      <table class="price_chart table">
+        <tr>
+          <th colspan="2">2018 Adult Membership </th>
+          <th colspan="2">2018 Junoir Membership </th>
+        </tr>
+        <tr>
+          <td>Single</td>
+          <td>$385</td>
+          <td>Single (ages 5-12)</td>
+          <td>$175</td>
+        </tr>
+        <tr>
+          <td>Double</td>
+          <td>$585</td>
+          <td>Single (ages 3-15)</td>
+          <td>$195</td>
+        </tr>
+        <tr>
+          <td>Senoir Single (65 and up)</td>
+          <td>$380</td>
+          <td>Single (ages 16-18)</td>
+          <td>$225</td>
+        </tr>
+        <tr>
+          <td>Senoir Double</td>
+          <td>$575</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Family add on (ages 5-15)</td>
+          <td>$95</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>Trail Fee</td>
+          <td>$175</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+
+              <tr>
+                <th colspan="2">Member Cart Fee</th>
+                <th colspan="2">&nbsp;</th>
+              </tr>
+              <tr>
+                <td>9 Holes</td>
+                <td>$<?php echo $member_cart_price; ?></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+        </table>
+
+        <p style="text-align:left; margin-top:10px;">*Any existing member of Birch Pointe will receive $30 off their 2018 Membership</p>
+        <p style="text-align:left; margin-top:10px;">*Please remember memberships must be paid in full before you play. If you pay in full before March 31st,  we will take $10 off your 2018 membership.</p>
+
 
       </div>
       <!-- col -->
