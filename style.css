@@ -564,7 +564,8 @@ Blue Gray:  #3e4249
 
 body {
 	margin-top: 50px;
-	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	/* font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif; */
+	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size: 16px;
 	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/tile.jpg') top left repeat;
 }
@@ -1121,8 +1122,7 @@ footer li.signup-link a:hover { font-weight: bold; }
 
 a.menu-item{cursor:pointer;}
 .price_chart {width:100%; font-size: 1.1em; }
-.price_chart td {text-align: left; padding: 1px !important; border: 0 !important;font-weight: 500;}
-.price_chart td {text-align: left; padding: 1px 1px 1px 0px !important; }
+.price_chart td {text-align: left; padding: 1px !important; border: 0 !important;font-weight: 500;font-family: helvetica;}
 .price_chart th {font-size:1.25em; border: 0 !important; padding:15px 1px 1px 0px !important;}
 #logo_footer_wrap{margin: -80px auto 0px auto; width: 150px; background-color: #fff; border-radius: 50%; padding: 11px; }
 i.course-icon img {width:50%;}
