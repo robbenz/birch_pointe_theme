@@ -1174,7 +1174,7 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	.tee-time{font-size: 20px;}
 	a.call-tee-time{font-size:19px;}
 	h4 {font-size: 14px;}
-	.resource { width: 100%; margin-right: 0; }
 	.price_chart td {font-size:11px; }
+	.price_chart th { font-size: 1em; }
 	#hero { background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed; }
 }
