@@ -43,7 +43,6 @@ navScroll(".menu-item-25","#course-features");
 
 $(window).scroll(function(){
 		$("#theFixed").css("top",Math.max(0,400-$(this).scrollTop()));
-		$("#loggedtheFixed").css("top",Math.max(0,400-$(this).scrollTop()));
 });
 
 });

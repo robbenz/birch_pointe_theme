@@ -797,8 +797,7 @@ form textarea {
 
 /* ==== HERO ==== */
 
-#hero {
-
+#clubhouse {
 	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed;
 	min-height: 543px;
 	background-color:#3e4249;
@@ -826,15 +825,11 @@ form textarea {
 	right:0;
 }
 
-#hero article {
+#clubhouse article {
   width: 100%;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-}
-
-#hero .hero-text {
-	margin-top: 30px;
 }
 
 #price-timeline {
@@ -1129,7 +1124,7 @@ i.course-icon img {width:50%;}
 ul.list-unstyled a{ cursor: pointer; font-size: 13px; color:#ccc;}
 ul.list-unstyled a:hover { color:#fff; }
 .tee-time {font-size:33px;}
-#loggedtheFixed,#theFixed {margin: 0 auto;left:0;right:0;}
+#theFixed {width: 150px;position:fixed;top:400px;z-index:9998;margin: 0 auto;left:0;right:0;}
 a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:21px;}
 #theFixed p.lead{margin-top:10px;}
 
@@ -1161,7 +1156,8 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	.resource {width: 48%;margin-right: 2%;}
 	#logo_footer_wrap { margin-top: -10px;}
 	#logo_img_wrap, #logo_footer_wrap {width:100px;}
-	#theFixed p.lead{margin-top:0px;}
+	/* #theFixed p.lead{margin-top:0px;top:10px;} */
+	#theFixed {top:390px;}
 
 }
 
@@ -1176,5 +1172,5 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	h4 {font-size: 14px;}
 	.price_chart td {font-size:11px; }
 	.price_chart th { font-size: 1em; }
-	#hero { background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed; }
+	#clubhouse { background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed; }
 }
