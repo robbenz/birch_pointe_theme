@@ -1133,18 +1133,20 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 @media screen and (max-width : 1200px) {
 	#dk_clubhouse {margin-top: 180px;}
 	.tee-time {font-size: 27px;}
+	#logo_img_wrap { max-width: 170px; }
 }
 
 @media screen and (max-width : 991px) {
 	#instructor .container { background: rgba(255,255,255,0.8); padding: 20px; }
-	.tee-time {font-size: 23px;	}
+	.tee-time {font-size: 20px;	}
 	.nav > li > a { padding:10px 5px; font-size:12px;}
-	#logo_img_wrap { max-width: 170px; }
+
 }
 
 @media screen and (max-width: 782px) {
 	.admin-bar .navbar-fixed-top {top:46px;}
 		h4 {font-size: 15px;}
+
 }
 
 @media screen and (max-width : 768px) {
@@ -1156,7 +1158,6 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	.resource {width: 48%;margin-right: 2%;}
 	#logo_footer_wrap { margin-top: -10px;}
 	#logo_img_wrap, #logo_footer_wrap {width:100px;}
-	/* #theFixed p.lead{margin-top:0px;top:10px;} */
 	#theFixed {top:390px;}
 
 }
