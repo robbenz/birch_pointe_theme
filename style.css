@@ -1172,5 +1172,9 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 	h4 {font-size: 14px;}
 	.price_chart td {font-size:11px; }
 	.price_chart th { font-size: 1em; }
-	#clubhouse { background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-bk.jpg') 50% 0 no-repeat fixed; }
+}
+
+@media screen and (max-width : 526px) {
+	#clubhouse { background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/hole-3-green-mobile.jpg') 50% 0 no-repeat fixed; }
+
 }
