@@ -50,43 +50,27 @@ $member_blurb_2               = get_field('member_blurb_2');
             </tr>
             <tr>
               <td>9 Holes Walking</td>
-              <td>$
-                <?php echo $nine_holes_walking_wkday; ?>
-              </td>
+              <td>$<?php echo $nine_holes_walking_wkday; ?></td>
               <td>9 Holes Walking</td>
-              <td>$
-                <?php echo $nine_holes_walking_wkend; ?>
-              </td>
+              <td>$<?php echo $nine_holes_walking_wkend; ?></td>
             </tr>
             <tr>
               <td>9 Holes with Cart</td>
-              <td>$
-                <?php echo $nine_holes_riding_wkday; ?>
-              </td>
+              <td>$<?php echo $nine_holes_riding_wkday; ?></td>
               <td>9 Holes with Cart</td>
-              <td>$
-                <?php echo $nine_holes_riding_wkend; ?>
-              </td>
+              <td>$<?php echo $nine_holes_riding_wkend; ?></td>
             </tr>
             <tr>
               <td>18 Holes Walking</td>
-              <td>$
-                <?php echo $eighteen_holes_walking_wkday; ?>
-              </td>
+              <td>$<?php echo $eighteen_holes_walking_wkday; ?></td>
               <td>18 Holes Walking</td>
-              <td>$
-                <?php echo $eighteen_holes_walking_wkend; ?>
-              </td>
+              <td>$<?php echo $eighteen_holes_walking_wkend; ?></td>
             </tr>
             <tr>
               <td>18 Holes with Cart</td>
-              <td>$
-                <?php echo $eighteen_holes_riding_wkday; ?>
-              </td>
+              <td>$<?php echo $eighteen_holes_riding_wkday; ?></td>
               <td>18 Holes with Cart</td>
-              <td>$
-                <?php echo $eighteen_holes_riding_wkend; ?>
-              </td>
+              <td>$<?php echo $eighteen_holes_riding_wkend; ?></td>
             </tr>
 
             <tr>
@@ -95,25 +79,19 @@ $member_blurb_2               = get_field('member_blurb_2');
             </tr>
             <tr>
               <td>9 Holes Walking</td>
-              <td>$
-                <?php echo $nine_holes_walking_sn; ?>
-              </td>
+              <td>$<?php echo $nine_holes_walking_sn; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
             <tr>
               <td>9 Holes with Cart</td>
-              <td>$
-                <?php echo $nine_holes_riding_sn; ?>
-              </td>
+              <td>$<?php echo $nine_holes_riding_sn; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
             <tr>
               <td>18 Holes with Cart</td>
-              <td>$
-                <?php echo $eighteen_holes_riding_sn; ?>
-              </td>
+              <td>$<?php echo $eighteen_holes_riding_sn; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
@@ -124,65 +102,43 @@ $member_blurb_2               = get_field('member_blurb_2');
 
           <table class="price_chart table">
             <tr>
-              <th colspan="2">
-                <?php echo $adult_membership_title; ?>
-              </th>
-              <th colspan="2">
-                <?php echo $junoir_membership_title; ?>
-              </th>
+              <th colspan="2"><?php echo $adult_membership_title; ?></th>
+              <th colspan="2"><?php echo $junoir_membership_title; ?></th>
             </tr>
             <tr>
               <td>Single</td>
-              <td>$
-                <?php echo $adult_single; ?>
-              </td>
+              <td>$<?php echo $adult_single; ?></td>
               <td>Single (ages 5-12)</td>
-              <td>$
-                <?php echo $junoir_512; ?>
-              </td>
+              <td>$<?php echo $junoir_512; ?></td>
             </tr>
             <tr>
               <td>Double</td>
-              <td>$
-                <?php echo $adult_double; ?>
-              </td>
+              <td>$<?php echo $adult_double; ?></td>
               <td>Single (ages 13-15)</td>
-              <td>$
-                <?php echo $junoir_1315; ?>
-              </td>
+              <td>$<?php echo $junoir_1315; ?></td>
             </tr>
             <tr>
               <td>Senoir Single (65 and up)</td>
-              <td>$
-                <?php echo $senoir_single; ?>
-              </td>
+              <td>$<?php echo $senoir_single; ?></td>
               <td>Single (ages 16-18)</td>
-              <td>$
-                <?php echo $junoir_1618; ?>
-              </td>
+              <td>$<?php echo $junoir_1618; ?></td>
             </tr>
             <tr>
               <td>Senoir Double</td>
-              <td>$
-                <?php echo $senoir_double; ?>
-              </td>
+              <td>$<?php echo $senoir_double; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
             <tr>
               <td>Family add on (ages 5-15)</td>
-              <td>$
-                <?php echo $family_add_on; ?>
-              </td>
+              <td>$<?php echo $family_add_on; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
 
             <tr>
               <td>Trail Fee</td>
-              <td>$
-                <?php echo $trail_fee; ?>
-              </td>
+              <td>$<?php echo $trail_fee; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
@@ -193,9 +149,7 @@ $member_blurb_2               = get_field('member_blurb_2');
             </tr>
             <tr>
               <td>9 Holes</td>
-              <td>$
-                <?php echo $member_cart_price; ?>
-              </td>
+              <td>$<?php echo $member_cart_price; ?></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
