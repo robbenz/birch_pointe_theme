@@ -96,7 +96,7 @@ $member_blurb_2               = get_field('member_blurb_2');
               <td>&nbsp;</td>
             </tr>
           </table>
-          <p style="text-align:left; margin-top:10px;">
+          <p class="rates_blurbs">
             <?php echo $senoir_pricing_blurb; ?>
           </p>
 
@@ -155,10 +155,10 @@ $member_blurb_2               = get_field('member_blurb_2');
             </tr>
           </table>
 
-          <p style="text-align:left; margin-top:10px;">
+          <p class="rates_blurbs">
             <?php echo $member_blurb_1; ?>
           </p>
-          <p style="text-align:left; margin-top:10px;">
+          <p class="rates_blurbs">
             <?php echo $member_blurb_2; ?>
           </p>
 

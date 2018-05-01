@@ -24,25 +24,32 @@ $(function() {
 		}); // end window scroll
 	});
 
-function navScroll(menuItem, whereTo) {
-	$(menuItem).click(function() {
-		$('html, body').animate({
-			scrollTop: $(whereTo).offset().top -70
-		}, 2000);
+	function navScroll(menuItem, whereTo) {
+		$(menuItem).click(function() {
+			$('html, body').animate({
+				scrollTop: $(whereTo).offset().top -50
+			}, 2000);
+		});
+	}
+
+	navScroll(".navbar-brand","#page");
+	navScroll(".footer-home","#page");
+	navScroll(".menu-item-23","#birch_pointe_rates");
+	navScroll(".menu-item-22","#photo-gallery");
+	navScroll(".menu-item-21","#score_card");
+	navScroll(".menu-item-20","#birch_pointe_about_us");
+	navScroll(".menu-item-24","#birch_pointe_location");
+	navScroll(".menu-item-25","#course-features");
+
+	$(window).scroll(function(){
+			$("#theFixed").css("top",Math.max(0,400-$(this).scrollTop()));
 	});
-}
 
-navScroll(".navbar-brand","#page");
-navScroll(".footer-home","#page");
-navScroll(".menu-item-23","#birch_pointe_rates");
-navScroll(".menu-item-22","#photo-gallery");
-navScroll(".menu-item-21","#score_card");
-navScroll(".menu-item-20","#birch_pointe_about_us");
-navScroll(".menu-item-24","#birch_pointe_location");
-navScroll(".menu-item-25","#course-features");
+	$('.navbar-collapse a').click(function (e) {
+		if($('.navbar-toggle').css('display') == 'block' && !$(this).siblings().length){
+			$('.navbar-collapse').collapse('toggle');
+		}
+	});
 
-$(window).scroll(function(){
-		$("#theFixed").css("top",Math.max(0,400-$(this).scrollTop()));
-});
 
 });

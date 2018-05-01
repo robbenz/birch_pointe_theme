@@ -928,6 +928,7 @@ section.main-content {
 #photo-gallery, #course-features { background: #3e4249; color: white; text-align: center; }
 #score_card { background: white; }
 #birch_pointe_rates {text-align: center; }
+p.rates_blurbs {text-align:left; margin-top:10px;}
 #birch_pointe_location {
 	background: url('http://birchpointegolfclub.com/wp-content/themes/birch_pointe/assets/img/birch_pointe_maps.png') 50% 100% repeat fixed; */
 	background-size: cover;text-align: center;color: white;padding-bottom:140px;
@@ -935,6 +936,9 @@ section.main-content {
 #dk_clubhouse {padding-bottom:30px; background-color: rgba(0, 0, 0, 0.4); margin-top:150px; text-align:center}
 .dark-wrap {padding: 20px; background-color: rgba(0, 0, 0, 0.7);}
 .dark-wrap ul li {text-align:left;}
+
+
+
 footer { background: #3e4249;color: white;padding: 20px 0 10px;font-size: 12px; }
 footer p { margin: 0; }
 footer a:link, footer a:visited { color: white; }
@@ -1164,6 +1168,7 @@ a.call-tee-time{color:#fff;font-family: 'Helvetica Neue', Helvetica, Arial, sans
 
 @media screen and (max-width: 600) {
 	.admin-bar .navbar-fixed-top {top:46px;}
+	p.rates_blurbs {font-size:14px;}
 }
 
 @media screen and (max-width : 568px) {
