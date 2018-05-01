@@ -4,38 +4,30 @@
 <div class="container">
 
   <div class="section-header">
-
     <h2>Course Features</h2>
-
   </div><!-- section-header -->
 
   <div class="row">
 
-    <div class="col-sm-2 col-xs-4">
-      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-drivingrange.png" /></i>
-      <h4>Driving Range</h4>
-    </div>
-    <div class="col-sm-2 col-xs-4">
-      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-martini.png" /></i>
-      <h4>Full Service Bar</h4>
-    </div>
-    <div class="col-sm-2 col-xs-4">
-      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-patio.png" /></i>
-      <h4>Outdoor Patio</h4>
-    </div>
-    <div class="col-sm-2 col-xs-4">
-      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-golfball.png" /></i>
-      <h4>Pro Shop</h4>
-    </div>
-    <div class="col-sm-2 col-xs-4">
-      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-cart.png" /></i>
-      <h4>Riding Carts</h4>
-    </div>
-    <div class="col-sm-2 col-xs-4">
-      <i class="course-icon"><img src="<?php echo site_url(); ?>/wp-content/themes/birch_pointe/assets/img/icons/icon-putting-green.png" /></i>
-      <h4>Putting Green</h4>
-    </div>
+    <?php
 
+    $loop = new WP_Query(
+      array(
+        'post_type' => 'course_feature',
+        'orderby'   => 'post_id',
+        'order'     => 'ASC'
+      )
+    );
+
+    while( $loop->have_posts() ) : $loop->the_post();
+
+    ?>
+    <div class="col-sm-2 col-xs-4">
+      <i class="course-icon"><?php the_post_thumbnail('thumbnail'); ?></i>
+      <h4><?php the_title(); ?></h4>
+    </div><!-- end col -->
+
+      <?php endwhile; wp_reset_query(); ?>
     </div><!-- row -->
   </div><!-- container -->
 </section><!-- course-features -->
