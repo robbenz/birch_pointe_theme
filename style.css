@@ -965,7 +965,7 @@ a.menu-item{cursor:pointer;}
 .price_chart td {text-align: left; padding: 1px !important; border: 0 !important;font-weight: 500;font-family: helvetica;}
 .price_chart th {font-size:1.25em; border: 0 !important; padding:15px 1px 1px 0px !important;}
 #logo_footer_wrap{margin: -80px auto 0px auto; width: 150px; background-color: #fff; border-radius: 50%; padding: 11px; }
-i.course-icon img {width:50%;}
+i.course-icon img {width: 60%;height: 60%;}
 ul.list-unstyled a{ cursor: pointer; font-size: 13px; color:#ccc;}
 ul.list-unstyled a:hover { color:#fff; }
 .tee-time {font-size:33px;}
